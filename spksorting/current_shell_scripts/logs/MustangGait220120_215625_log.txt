@@ -1,0 +1,1138 @@
+Creating directory: "/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625"
+---------------------------------------------------------------------
+Executing following command:
+./mountainSort32_spinalCordGait_jz103.sh /media/hanlin/Liuyang_10T_backup/jiaaoZ/data_converted/mda_files/MustangGaitSessions/Mustang_220120_215625/converted_data.mda /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625 30000 map.csv
+---------------------------------------------------------------------
+[ Getting processor spec... ]
+[ Checking inputs and substituting prvs ... ]
+[ Computing process signature ... ]
+Process signature: 35f4e2af85ed47e713496fc4448ba5be739d46d6
+[ Checking outputs... ]
+{"timeseries_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/filt.mda"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/filt.mda
+false
+{"timeseries_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/filt.mda"}
+[ Checking process cache ... ]
+[ Creating temporary directory ... ]
+[ Creating links to input files... ]
+[ Preparing temporary outputs... ]
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/filt.mda
+false
+[ Initializing process ... ]
+[ Running ... ] /home/hanlin/miniconda3/envs/mountainlab/bin/python3 /home/hanlin/miniconda3/envs/mountainlab/etc/mountainlab/packages/ml_ephys/preprocessing/preprocessing.py.mp ephys.bandpass_filter --_tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_35f4e2af85_yof67V --timeseries=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_35f4e2af85_yof67V/input_timeseries_sN0Wvfzv.mda --timeseries_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_35f4e2af85_yof67V/output_timeseries_out.mda --samplerate=30000 --freq_min=250 --freq_max=5000
+Chunk size: 30000, Padding: 3000, Num chunks: 1819, Num processes: 128
+
+Processed 678 of 1819 chunks...
+Processed 1063 of 1819 chunks...
+
+Processed 299 of 1819 chunks...
+Processed 1453 of 1819 chunks...
+
+Processed 1819 of 1819 chunks...
+
+Processed 868 of 1819 chunks...
+
+Processed 490 of 1819 chunks...
+
+Processed 1259 of 1819 chunks...
+
+Processed 1649 of 1819 chunks...
+
+Elapsed time for processor ephys.bandpass_filter: 38.768 sec
+Finalizing output timeseries_out
+[ Saving to process cache ... ]
+[ Removing temporary directory ... ]
+[ Done. ]
+[ Getting processor spec... ]
+[ Checking inputs and substituting prvs ... ]
+[ Computing process signature ... ]
+Process signature: a9d96aac41f3e41f6739b94f252e221030d32d9e
+[ Checking outputs... ]
+{"timeseries_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pre1.mda.prv"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pre1.mda.prv
+false
+{"timeseries_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/output_a9d96aac41f3e41f6739b94f252e221030d32d9e_timeseries_out.mda"}
+[ Checking process cache ... ]
+[ Creating temporary directory ... ]
+[ Creating links to input files... ]
+[ Preparing temporary outputs... ]
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/output_a9d96aac41f3e41f6739b94f252e221030d32d9e_timeseries_out.mda
+false
+[ Initializing process ... ]
+[ Running ... ] /home/hanlin/miniconda3/envs/mountainlab/bin/python3 /home/hanlin/miniconda3/envs/mountainlab/etc/mountainlab/packages/ml_ephys/preprocessing/preprocessing.py.mp ephys.whiten --_tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_a9d96aac41_r6rCdR --timeseries=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_a9d96aac41_r6rCdR/input_timeseries_q6hnU47D.mda --timeseries_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_a9d96aac41_r6rCdR/output_timeseries_out.mda
+Chunk size: 300000, Num chunks: 182, Num processes: 128
+
+Processed 182 of 182 chunks...
+
+Processed 182 of 182 chunks...
+
+Processed 182 of 182 chunks...
+
+Processed 124 of 182 chunks...
+
+Processed 182 of 182 chunks...
+
+Processed 146 of 182 chunks...
+
+Processed 182 of 182 chunks...
+
+Processed 163 of 182 chunks...
+
+Processed 182 of 182 chunks...
+
+Processed 181 of 182 chunks...
+
+Elapsed time for processor ephys.whiten: 55.834 sec
+Finalizing output timeseries_out
+[ Creating output prv for timeseries_out ... ]
+[ Saving to process cache ... ]
+[ Removing temporary directory ... ]
+[ Done. ]
+[ Getting processor spec... ]
+[ Checking inputs and substituting prvs ... ]
+[ Computing process signature ... ]
+Process signature: 8a57729287446190cc0f04d9d9ba4eec7a41fbff
+[ Checking outputs... ]
+{"timeseries_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pre.mda.prv"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pre.mda.prv
+false
+{"timeseries_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/output_8a57729287446190cc0f04d9d9ba4eec7a41fbff_timeseries_out.mda"}
+[ Checking process cache ... ]
+[ Creating temporary directory ... ]
+[ Creating links to input files... ]
+[ Preparing temporary outputs... ]
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/output_8a57729287446190cc0f04d9d9ba4eec7a41fbff_timeseries_out.mda
+false
+[ Initializing process ... ]
+[ Running ... ] /home/hanlin/miniconda3/envs/mountainlab/bin/python3 /home/hanlin/miniconda3/envs/mountainlab/etc/mountainlab/packages/ml_ephys/preprocessing/preprocessing.py.mp ephys.mask_out_artifacts --_tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_8a57729287_aJSoZS --timeseries=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_8a57729287_aJSoZS/input_timeseries_qhkQ7C6p.mda --timeseries_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_8a57729287_aJSoZS/output_timeseries_out.mda
+For channel 0: mean=45.17, stdev=6.17, chunk size = 2000
+
+For channel 1: mean=44.92, stdev=8.13, chunk size = 2000
+
+For channel 2: mean=45.15, stdev=5.74, chunk size = 2000
+
+For channel 3: mean=44.72, stdev=4.97, chunk size = 2000
+
+For channel 4: mean=44.93, stdev=6.10, chunk size = 2000
+
+For channel 5: mean=44.72, stdev=5.95, chunk size = 2000
+
+For channel 6: mean=45.05, stdev=4.89, chunk size = 2000
+
+For channel 7: mean=43.93, stdev=10.09, chunk size = 2000
+
+For channel 8: mean=45.23, stdev=5.52, chunk size = 2000
+
+For channel 9: mean=44.61, stdev=8.71, chunk size = 2000
+
+For channel 10: mean=44.58, stdev=4.66, chunk size = 2000
+
+For channel 11: mean=44.56, stdev=7.84, chunk size = 2000
+
+For channel 12: mean=45.21, stdev=4.86, chunk size = 2000
+
+For channel 13: mean=44.92, stdev=7.07, chunk size = 2000
+
+For channel 14: mean=44.95, stdev=4.85, chunk size = 2000
+
+For channel 15: mean=45.17, stdev=9.49, chunk size = 2000
+
+For channel 16: mean=45.11, stdev=4.77, chunk size = 2000
+
+For channel 17: mean=45.00, stdev=7.29, chunk size = 2000
+
+For channel 18: mean=45.13, stdev=8.35, chunk size = 2000
+
+For channel 19: mean=35.11, stdev=27.79, chunk size = 2000
+
+For channel 20: mean=45.13, stdev=4.70, chunk size = 2000
+
+For channel 21: mean=44.86, stdev=5.89, chunk size = 2000
+
+For channel 22: mean=45.12, stdev=7.21, chunk size = 2000
+
+For channel 23: mean=44.99, stdev=4.64, chunk size = 2000
+
+For channel 24: mean=45.04, stdev=4.86, chunk size = 2000
+
+For channel 25: mean=45.16, stdev=6.84, chunk size = 2000
+
+For channel 26: mean=44.86, stdev=7.06, chunk size = 2000
+
+For channel 27: mean=44.76, stdev=4.93, chunk size = 2000
+
+For channel 28: mean=45.01, stdev=5.75, chunk size = 2000
+
+For channel 29: mean=45.08, stdev=3.60, chunk size = 2000
+
+For channel 30: mean=45.09, stdev=7.35, chunk size = 2000
+
+For channel 31: mean=44.61, stdev=5.35, chunk size = 2000
+
+
+Using 98.10% of all timepoints.
+
+
+Processed 182 of 182 chunks...
+
+Processed 182 of 182 chunks...
+
+Processed 182 of 182 chunks...
+
+Processed 182 of 182 chunks...
+
+Processed 146 of 182 chunks...
+Processed 182 of 182 chunks...
+
+Processed 167 of 182 chunks...
+Processed 182 of 182 chunks...
+
+Elapsed time for processor ephys.mask_out_artifacts: 42.523 sec
+Finalizing output timeseries_out
+[ Creating output prv for timeseries_out ... ]
+[ Saving to process cache ... ]
+[ Removing temporary directory ... ]
+[ Done. ]
+[ Getting processor spec... ]
+[ Checking inputs and substituting prvs ... ]
+[ Computing process signature ... ]
+Process signature: 99d396472e3c4e3bd220f6573a2af1d28729a2fe
+[ Checking outputs... ]
+{"firings_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/firings.mda"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/firings.mda
+false
+{"firings_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/firings.mda"}
+[ Checking process cache ... ]
+[ Creating temporary directory ... ]
+[ Creating links to input files... ]
+[ Preparing temporary outputs... ]
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/firings.mda
+false
+[ Initializing process ... ]
+[ Running ... ] /home/hanlin/miniconda3/envs/mountainlab/bin/python3 /home/hanlin/miniconda3/envs/mountainlab/etc/mountainlab/packages/ml_ms4alg/ms4alg_spec.py.mp ms4alg.sort --_tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_99d396472e_SN4XBI --timeseries=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_99d396472e_SN4XBI/input_timeseries_mpHwpAGI.mda --geom=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_99d396472e_SN4XBI/input_geom_CDYezh1M.csv --firings_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_99d396472e_SN4XBI/output_firings_out.mda --detect_sign=0 --adjacency_radius=100 --detect_threshold=4.5 --clip_size=100
+Using tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_99d396472e_SN4XBI
+Num. workers = 128
+Preparing /media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_99d396472e_SN4XBI/timeseries.hdf5...
+Preparing neighborhood sorters (M=32, N=54544128)...
+
+Neighboorhood of channel 0 has 5 channels.
+Detecting events on channel 1 (phase1)...
+
+Neighboorhood of channel 1 has 9 channels.
+Detecting events on channel 2 (phase1)...
+Neighboorhood of channel 2 has 7 channels.
+Detecting events on channel 3 (phase1)...
+Neighboorhood of channel 20 has 9 channels.
+Detecting events on channel 21 (phase1)...
+
+Neighboorhood of channel 7 has 9 channels.
+Detecting events on channel 8 (phase1)...
+Neighboorhood of channel 21 has 9 channels.
+Detecting events on channel 22 (phase1)...
+Neighboorhood of channel 3 has 9 channels.
+Detecting events on channel 4 (phase1)...
+
+Neighboorhood of channel 22 has 9 channels.
+Detecting events on channel 23 (phase1)...
+
+Neighboorhood of channel 5 has 9 channels.
+Detecting events on channel 6 (phase1)...
+
+Neighboorhood of channel 8 has 9 channels.
+Detecting events on channel 9 (phase1)...
+Neighboorhood of channel 4 has 6 channels.
+Detecting events on channel 5 (phase1)...
+Neighboorhood of channel 23 has 9 channels.
+Detecting events on channel 24 (phase1)...
+Neighboorhood of channel 6 has 8 channels.
+Detecting events on channel 7 (phase1)...
+
+Neighboorhood of channel 24 has 7 channels.
+Detecting events on channel 25 (phase1)...
+
+Neighboorhood of channel 25 has 9 channels.
+Detecting events on channel 26 (phase1)...
+Neighboorhood of channel 10 has 9 channels.
+Detecting events on channel 11 (phase1)...
+
+Neighboorhood of channel 27 has 9 channels.
+Detecting events on channel 28 (phase1)...
+Neighboorhood of channel 26 has 5 channels.
+Detecting events on channel 27 (phase1)...
+
+Neighboorhood of channel 28 has 8 channels.
+Detecting events on channel 29 (phase1)...
+
+Neighboorhood of channel 11 has 9 channels.
+Detecting events on channel 12 (phase1)...
+Neighboorhood of channel 9 has 9 channels.
+Detecting events on channel 10 (phase1)...
+Neighboorhood of channel 29 has 9 channels.
+Detecting events on channel 30 (phase1)...
+
+Neighboorhood of channel 12 has 9 channels.
+Detecting events on channel 13 (phase1)...
+Neighboorhood of channel 31 has 9 channels.
+Detecting events on channel 32 (phase1)...
+Neighboorhood of channel 15 has 9 channels.
+Detecting events on channel 16 (phase1)...
+Neighboorhood of channel 30 has 6 channels.
+Detecting events on channel 31 (phase1)...
+Neighboorhood of channel 13 has 9 channels.
+Detecting events on channel 14 (phase1)...
+
+Neighboorhood of channel 14 has 9 channels.
+Detecting events on channel 15 (phase1)...
+
+Neighboorhood of channel 16 has 9 channels.
+Detecting events on channel 17 (phase1)...
+
+Neighboorhood of channel 17 has 9 channels.
+Detecting events on channel 18 (phase1)...
+
+Neighboorhood of channel 18 has 9 channels.
+Detecting events on channel 19 (phase1)...
+
+Neighboorhood of channel 19 has 9 channels.
+Detecting events on channel 20 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:07.394208
+Num events detected on channel 1 (phase1): 10505
+Computing PCA features for channel 1 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:07.716230
+Num events detected on channel 27 (phase1): 6895
+Computing PCA features for channel 27 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:07.739569
+Num events detected on channel 5 (phase1): 3703
+Computing PCA features for channel 5 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:08.238400
+Num events detected on channel 31 (phase1): 7038
+Computing PCA features for channel 31 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:08.634386
+Num events detected on channel 3 (phase1): 5794
+Computing PCA features for channel 3 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:08.755000
+Num events detected on channel 25 (phase1): 2521
+Computing PCA features for channel 25 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:09.610787
+Num events detected on channel 7 (phase1): 2489
+
+Computing PCA features for channel 7 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:09.666093
+Num events detected on channel 29 (phase1): 6425
+Computing PCA features for channel 29 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:09.970304
+Num events detected on channel 9 (phase1): 24446
+Computing PCA features for channel 9 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.002704
+Num events detected on channel 15 (phase1): 4430
+Computing PCA features for channel 15 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.142578
+Num events detected on channel 12 (phase1): 76393
+
+Computing PCA features for channel 12 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.226859
+Num events detected on channel 4 (phase1): 38322
+Computing PCA features for channel 4 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.291549
+Num events detected on channel 2 (phase1): 26184
+Computing PCA features for channel 2 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.453492
+Num events detected on channel 10 (phase1): 79287
+Computing PCA features for channel 10 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.580867
+Num events detected on channel 14 (phase1): 34206
+Computing PCA features for channel 14 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.609313
+Num events detected on channel 24 (phase1): 55757
+Computing PCA features for channel 24 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.733977
+Num events detected on channel 23 (phase1): 6667
+Computing PCA features for channel 23 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.829593
+Num events detected on channel 18 (phase1): 47829
+Computing PCA features for channel 18 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.834780
+Num events detected on channel 17 (phase1): 3805
+Computing PCA features for channel 17 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:10.989053
+Num events detected on channel 11 (phase1): 9621
+Computing PCA features for channel 11 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.080249
+Num events detected on channel 21 (phase1): 8915
+
+Computing PCA features for channel 21 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.129166
+Num events detected on channel 13 (phase1): 7962
+
+Computing PCA features for channel 13 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.209893
+Num events detected on channel 28 (phase1): 63775
+
+Computing PCA features for channel 28 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.284812
+Num events detected on channel 8 (phase1): 24635
+
+Computing PCA features for channel 8 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.313271
+Num events detected on channel 22 (phase1): 120620
+
+Computing PCA features for channel 22 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.428782
+Num events detected on channel 20 (phase1): 6591
+Computing PCA features for channel 20 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.534221
+Num events detected on channel 16 (phase1): 4553
+
+Computing PCA features for channel 16 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.589734
+Num events detected on channel 30 (phase1): 16860
+
+Computing PCA features for channel 30 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.650177
+Num events detected on channel 6 (phase1): 32249
+
+Computing PCA features for channel 6 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.708648
+Num events detected on channel 26 (phase1): 157007
+
+Computing PCA features for channel 26 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.800052
+Num events detected on channel 19 (phase1): 2402
+
+Computing PCA features for channel 19 (phase1)...
+
+Elapsed time for detect on neighborhood: 0:00:11.889013
+Num events detected on channel 32 (phase1): 55916
+
+Computing PCA features for channel 32 (phase1)...
+
+Clustering for channel 1 (phase1)...
+
+Clustering for channel 27 (phase1)...
+
+Found 3 clusters for channel 1 (phase1)...
+
+Computing templates for channel 1 (phase1)...
+
+Found 2 clusters for channel 27 (phase1)...
+
+Computing templates for channel 27 (phase1)...
+
+Re-assigning events for channel 1 (phase1)...
+
+Re-assigning events for channel 27 (phase1)...
+
+Clustering for channel 5 (phase1)...
+
+Clustering for channel 9 (phase1)...
+
+Found 3 clusters for channel 5 (phase1)...
+
+Computing templates for channel 5 (phase1)...
+
+Clustering for channel 31 (phase1)...
+
+Clustering for channel 29 (phase1)...
+
+Clustering for channel 25 (phase1)...
+
+Found 3 clusters for channel 9 (phase1)...
+Computing templates for channel 9 (phase1)...
+
+Found 3 clusters for channel 25 (phase1)...
+
+Computing templates for channel 25 (phase1)...
+
+Found 4 clusters for channel 31 (phase1)...
+Computing templates for channel 31 (phase1)...
+
+Found 4 clusters for channel 29 (phase1)...
+
+Computing templates for channel 29 (phase1)...
+
+Clustering for channel 3 (phase1)...
+
+Clustering for channel 21 (phase1)...
+
+Clustering for channel 15 (phase1)...
+
+Re-assigning events for channel 5 (phase1)...
+
+Clustering for channel 11 (phase1)...
+
+Clustering for channel 12 (phase1)...
+
+Found 3 clusters for channel 3 (phase1)...
+Computing templates for channel 3 (phase1)...
+
+Clustering for channel 7 (phase1)...
+
+Found 2 clusters for channel 15 (phase1)...
+Computing templates for channel 15 (phase1)...
+
+Clustering for channel 2 (phase1)...
+
+Found 4 clusters for channel 21 (phase1)...
+Computing templates for channel 21 (phase1)...
+
+Found 2 clusters for channel 11 (phase1)...
+Computing templates for channel 11 (phase1)...
+
+Re-assigning events for channel 31 (phase1)...
+
+Re-assigning 130 events from 31 to 18 with dt=2 (k=3)
+
+Found 4 clusters for channel 7 (phase1)...
+Computing templates for channel 7 (phase1)...
+
+Re-assigning events for channel 25 (phase1)...
+
+Re-assigning 116 events from 25 to 27 with dt=-1 (k=3)
+
+Re-assigning events for channel 29 (phase1)...
+
+Re-assigning 38 events from 29 to 18 with dt=1 (k=4)
+
+Clustering for channel 18 (phase1)...
+
+Found 4 clusters for channel 2 (phase1)...
+Computing templates for channel 2 (phase1)...
+
+Clustering for channel 19 (phase1)...
+
+Clustering for channel 20 (phase1)...
+
+Clustering for channel 17 (phase1)...
+
+Found 3 clusters for channel 19 (phase1)...
+
+Computing templates for channel 19 (phase1)...
+
+Clustering for channel 14 (phase1)...
+
+Clustering for channel 10 (phase1)...
+
+Found 3 clusters for channel 17 (phase1)...
+
+Computing templates for channel 17 (phase1)...
+
+Found 2 clusters for channel 20 (phase1)...
+Computing templates for channel 20 (phase1)...
+
+Clustering for channel 23 (phase1)...
+
+Clustering for channel 16 (phase1)...
+
+Re-assigning events for channel 3 (phase1)...
+
+Re-assigning 96 events from 3 to 18 with dt=2 (k=3)
+
+Found 4 clusters for channel 12 (phase1)...
+
+Computing templates for channel 12 (phase1)...
+
+Clustering for channel 24 (phase1)...
+
+Re-assigning events for channel 7 (phase1)...
+
+Re-assigning 97 events from 7 to 27 with dt=2 (k=4)
+
+Found 7 clusters for channel 18 (phase1)...
+Computing templates for channel 18 (phase1)...
+
+Clustering for channel 4 (phase1)...
+
+Re-assigning events for channel 11 (phase1)...
+
+Re-assigning 80 events from 11 to 19 with dt=3 (k=2)
+
+Clustering for channel 30 (phase1)...
+
+Found 5 clusters for channel 16 (phase1)...
+Computing templates for channel 16 (phase1)...
+
+Re-assigning events for channel 9 (phase1)...
+
+Re-assigning 56 events from 9 to 5 with dt=0 (k=2)
+
+Found 3 clusters for channel 23 (phase1)...
+Computing templates for channel 23 (phase1)...
+
+Re-assigning events for channel 15 (phase1)...
+
+Found 5 clusters for channel 10 (phase1)...
+Computing templates for channel 10 (phase1)...
+
+Clustering for channel 8 (phase1)...
+
+Found 6 clusters for channel 14 (phase1)...
+
+Computing templates for channel 14 (phase1)...
+
+Clustering for channel 6 (phase1)...
+
+Re-assigning events for channel 21 (phase1)...
+
+Re-assigning 23 events from 21 to 17 with dt=0 (k=3)
+
+Clustering for channel 13 (phase1)...
+
+Found 4 clusters for channel 4 (phase1)...
+
+Found 4 clusters for channel 30 (phase1)...
+Computing templates for channel 30 (phase1)...
+
+Computing templates for channel 4 (phase1)...
+
+Re-assigning events for channel 19 (phase1)...
+
+Found 3 clusters for channel 13 (phase1)...
+Computing templates for channel 13 (phase1)...
+
+Found 8 clusters for channel 8 (phase1)...
+Computing templates for channel 8 (phase1)...
+
+Found 5 clusters for channel 6 (phase1)...
+Computing templates for channel 6 (phase1)...
+
+Found 16 clusters for channel 24 (phase1)...
+Computing templates for channel 24 (phase1)...
+
+Clustering for channel 32 (phase1)...
+
+Clustering for channel 28 (phase1)...
+
+Re-assigning events for channel 2 (phase1)...
+
+Re-assigning 20 events from 2 to 13 with dt=-1 (k=2)
+
+Re-assigning events for channel 17 (phase1)...
+
+Re-assigning events for channel 16 (phase1)...
+
+Re-assigning 6 events from 16 to 18 with dt=2 (k=3)
+
+Re-assigning 3 events from 16 to 12 with dt=1 (k=5)
+
+Re-assigning events for channel 20 (phase1)...
+
+Found 1 clusters for channel 32 (phase1)...
+
+Computing templates for channel 32 (phase1)...
+
+Re-assigning events for channel 14 (phase1)...
+
+Re-assigning 95 events from 14 to 12 with dt=-3 (k=1)
+Re-assigning 2383 events from 14 to 18 with dt=2 (k=2)
+
+Re-assigning 2 events from 14 to 12 with dt=-7 (k=4)
+
+Re-assigning 125 events from 14 to 18 with dt=4 (k=6)
+
+Re-assigning events for channel 23 (phase1)...
+
+Re-assigning 87 events from 23 to 27 with dt=-1 (k=3)
+
+Clustering for channel 22 (phase1)...
+
+Clustering for channel 26 (phase1)...
+
+Re-assigning events for channel 10 (phase1)...
+
+Re-assigning 39 events from 10 to 14 with dt=0 (k=3)
+
+Re-assigning 33 events from 10 to 12 with dt=-1 (k=4)
+
+Re-assigning events for channel 12 (phase1)...
+
+Re-assigning 18 events from 12 to 18 with dt=1 (k=2)
+
+Re-assigning 18 events from 12 to 18 with dt=3 (k=4)
+
+Found 4 clusters for channel 28 (phase1)...
+Computing templates for channel 28 (phase1)...
+
+Re-assigning events for channel 18 (phase1)...
+
+Re-assigning 23 events from 18 to 12 with dt=0 (k=2)
+
+Re-assigning 2 events from 18 to 12 with dt=-8 (k=5)
+
+Re-assigning 1 events from 18 to 12 with dt=-4 (k=7)
+
+Re-assigning events for channel 4 (phase1)...
+
+Re-assigning events for channel 13 (phase1)...
+
+Re-assigning 47 events from 13 to 17 with dt=3 (k=3)
+
+Re-assigning events for channel 6 (phase1)...
+
+Re-assigning 1 events from 6 to 10 with dt=2 (k=2)
+
+Re-assigning 1875 events from 6 to 8 with dt=0 (k=3)
+
+Re-assigning 42 events from 6 to 10 with dt=-1 (k=5)
+
+Re-assigning events for channel 30 (phase1)...
+
+Re-assigning 13 events from 30 to 21 with dt=1 (k=4)
+
+Re-assigning events for channel 8 (phase1)...
+
+Re-assigning 1 events from 8 to 10 with dt=-1 (k=1)
+
+Found 6 clusters for channel 22 (phase1)...
+Computing templates for channel 22 (phase1)...
+
+Re-assigning events for channel 24 (phase1)...
+
+Re-assigning 2220 events from 24 to 22 with dt=-1 (k=1)
+
+Re-assigning 71 events from 24 to 12 with dt=-1 (k=2)
+
+Re-assigning 17 events from 24 to 10 with dt=-2 (k=3)
+
+Re-assigning 22 events from 24 to 12 with dt=-1 (k=9)
+
+Re-assigning 24 events from 24 to 20 with dt=3 (k=13)
+
+Re-assigning 1 events from 24 to 8 with dt=-1 (k=16)
+
+Found 5 clusters for channel 26 (phase1)...
+Computing templates for channel 26 (phase1)...
+
+Re-assigning events for channel 32 (phase1)...
+
+Re-assigning events for channel 28 (phase1)...
+
+Re-assigning 4 events from 28 to 8 with dt=0 (k=3)
+
+Re-assigning events for channel 22 (phase1)...
+
+Re-assigning 20 events from 22 to 12 with dt=-1 (k=2)
+
+Re-assigning 2751 events from 22 to 12 with dt=-1 (k=3)
+
+Re-assigning 5 events from 22 to 18 with dt=0 (k=4)
+
+Re-assigning 295 events from 22 to 18 with dt=0 (k=5)
+
+Re-assigning 2 events from 22 to 10 with dt=0 (k=6)
+
+Re-assigning events for channel 26 (phase1)...
+
+Re-assigning 908 events from 26 to 10 with dt=1 (k=2)
+
+Re-assigning 26 events from 26 to 10 with dt=-2 (k=4)
+
+Re-assigning 10 events from 26 to 8 with dt=0 (k=5)
+
+Neighboorhood of channel 6 has 8 channels.
+Computing PCA features for channel 7 (phase2)...
+
+Neighboorhood of channel 0 has 5 channels.
+Computing PCA features for channel 1 (phase2)...
+Neighboorhood of channel 2 has 7 channels.
+Computing PCA features for channel 3 (phase2)...
+
+Neighboorhood of channel 5 has 9 channels.
+Computing PCA features for channel 6 (phase2)...
+
+Neighboorhood of channel 1 has 9 channels.
+Computing PCA features for channel 2 (phase2)...
+
+Neighboorhood of channel 4 has 6 channels.
+Computing PCA features for channel 5 (phase2)...
+Neighboorhood of channel 8 has 9 channels.
+Computing PCA features for channel 9 (phase2)...
+Neighboorhood of channel 15 has 9 channels.
+Computing PCA features for channel 16 (phase2)...
+Neighboorhood of channel 3 has 9 channels.
+Computing PCA features for channel 4 (phase2)...
+
+Neighboorhood of channel 10 has 9 channels.
+Computing PCA features for channel 11 (phase2)...
+
+Neighboorhood of channel 14 has 9 channels.
+Computing PCA features for channel 15 (phase2)...
+
+Neighboorhood of channel 18 has 9 channels.
+Computing PCA features for channel 19 (phase2)...
+
+Neighboorhood of channel 12 has 9 channels.
+Computing PCA features for channel 13 (phase2)...
+
+Neighboorhood of channel 22 has 9 channels.
+Computing PCA features for channel 23 (phase2)...
+
+Neighboorhood of channel 24 has 7 channels.
+Computing PCA features for channel 25 (phase2)...
+
+Neighboorhood of channel 13 has 9 channels.
+Computing PCA features for channel 14 (phase2)...
+Neighboorhood of channel 16 has 9 channels.
+Computing PCA features for channel 17 (phase2)...
+Neighboorhood of channel 20 has 9 channels.
+Computing PCA features for channel 21 (phase2)...
+
+Neighboorhood of channel 19 has 9 channels.
+Computing PCA features for channel 20 (phase2)...
+Neighboorhood of channel 23 has 9 channels.
+Computing PCA features for channel 24 (phase2)...
+
+Neighboorhood of channel 28 has 8 channels.
+Computing PCA features for channel 29 (phase2)...
+
+Neighboorhood of channel 30 has 6 channels.
+Computing PCA features for channel 31 (phase2)...
+
+Neighboorhood of channel 29 has 9 channels.
+Computing PCA features for channel 30 (phase2)...
+Neighboorhood of channel 7 has 9 channels.
+Computing PCA features for channel 8 (phase2)...
+
+Neighboorhood of channel 27 has 9 channels.
+Computing PCA features for channel 28 (phase2)...
+
+Neighboorhood of channel 26 has 5 channels.
+Computing PCA features for channel 27 (phase2)...
+
+Neighboorhood of channel 25 has 9 channels.
+Computing PCA features for channel 26 (phase2)...
+
+Neighboorhood of channel 31 has 9 channels.
+Computing PCA features for channel 32 (phase2)...
+
+Neighboorhood of channel 21 has 9 channels.
+Computing PCA features for channel 22 (phase2)...
+
+Neighboorhood of channel 9 has 9 channels.
+Computing PCA features for channel 10 (phase2)...
+
+Neighboorhood of channel 17 has 9 channels.
+Computing PCA features for channel 18 (phase2)...
+
+Neighboorhood of channel 11 has 9 channels.
+Computing PCA features for channel 12 (phase2)...
+
+No duplicate events found for channel 26 in phase2
+Clustering for channel 27 (phase2)...
+
+No duplicate events found for channel 0 in phase2
+Clustering for channel 1 (phase2)...
+
+Found 2 clusters for channel 27 (phase2)...
+
+No duplicate events found for channel 4 in phase2
+Clustering for channel 5 (phase2)...
+
+Found 2 clusters for channel 1 (phase2)...
+
+No duplicate events found for channel 30 in phase2
+Clustering for channel 31 (phase2)...
+
+Found 2 clusters for channel 5 (phase2)...
+
+Found 3 clusters for channel 31 (phase2)...
+
+No duplicate events found for channel 24 in phase2
+Clustering for channel 25 (phase2)...
+
+No duplicate events found for channel 23 in phase2
+Clustering for channel 24 (phase2)...
+
+No duplicate events found for channel 13 in phase2
+Clustering for channel 14 (phase2)...
+
+No duplicate events found for channel 2 in phase2
+Clustering for channel 3 (phase2)...
+
+Found 2 clusters for channel 25 (phase2)...
+
+Found 2 clusters for channel 14 (phase2)...
+
+No duplicate events found for channel 14 in phase2
+Clustering for channel 15 (phase2)...
+
+Found 3 clusters for channel 24 (phase2)...
+
+No duplicate events found for channel 6 in phase2
+Clustering for channel 7 (phase2)...
+
+Found 2 clusters for channel 15 (phase2)...
+
+No duplicate events found for channel 28 in phase2
+Clustering for channel 29 (phase2)...
+
+WARNING: found 12 of 34000 duplicate events for channel 18 in phase2
+Clustering for channel 18 (phase2)...
+
+Found 2 clusters for channel 3 (phase2)...
+
+No duplicate events found for channel 18 in phase2
+Clustering for channel 19 (phase2)...
+
+Found 2 clusters for channel 7 (phase2)...
+
+No duplicate events found for channel 16 in phase2
+Clustering for channel 17 (phase2)...
+
+No duplicate events found for channel 19 in phase2
+Clustering for channel 20 (phase2)...
+
+No duplicate events found for channel 1 in phase2
+Clustering for channel 2 (phase2)...
+
+No duplicate events found for channel 22 in phase2
+Clustering for channel 23 (phase2)...
+
+Found 2 clusters for channel 19 (phase2)...
+
+No duplicate events found for channel 5 in phase2
+Clustering for channel 6 (phase2)...
+
+Found 3 clusters for channel 29 (phase2)...
+
+Found 3 clusters for channel 17 (phase2)...
+
+No duplicate events found for channel 8 in phase2
+Clustering for channel 9 (phase2)...
+
+Found 2 clusters for channel 18 (phase2)...
+
+Found 2 clusters for channel 6 (phase2)...
+
+Found 2 clusters for channel 23 (phase2)...
+
+Found 2 clusters for channel 2 (phase2)...
+
+No duplicate events found for channel 3 in phase2
+Clustering for channel 4 (phase2)...
+
+Found 2 clusters for channel 20 (phase2)...
+
+No duplicate events found for channel 15 in phase2
+Clustering for channel 16 (phase2)...
+
+No duplicate events found for channel 12 in phase2
+Clustering for channel 13 (phase2)...
+
+No duplicate events found for channel 31 in phase2
+Clustering for channel 32 (phase2)...
+
+No duplicate events found for channel 7 in phase2
+Clustering for channel 8 (phase2)...
+
+No duplicate events found for channel 10 in phase2
+Clustering for channel 11 (phase2)...
+
+Found 1 clusters for channel 32 (phase2)...
+
+Found 2 clusters for channel 16 (phase2)...
+
+No duplicate events found for channel 20 in phase2
+Clustering for channel 21 (phase2)...
+
+Found 2 clusters for channel 13 (phase2)...
+
+Found 1 clusters for channel 11 (phase2)...
+
+Found 2 clusters for channel 9 (phase2)...
+
+Found 2 clusters for channel 4 (phase2)...
+
+No duplicate events found for channel 25 in phase2
+Clustering for channel 26 (phase2)...
+
+No duplicate events found for channel 9 in phase2
+Clustering for channel 10 (phase2)...
+
+Found 3 clusters for channel 21 (phase2)...
+
+No duplicate events found for channel 29 in phase2
+Clustering for channel 30 (phase2)...
+
+Found 9 clusters for channel 8 (phase2)...
+
+No duplicate events found for channel 21 in phase2
+Clustering for channel 22 (phase2)...
+
+No duplicate events found for channel 27 in phase2
+Clustering for channel 28 (phase2)...
+
+Found 1 clusters for channel 10 (phase2)...
+
+Found 2 clusters for channel 30 (phase2)...
+
+WARNING: found 1 of 72403 duplicate events for channel 12 in phase2
+Clustering for channel 12 (phase2)...
+
+Found 2 clusters for channel 26 (phase2)...
+
+Found 3 clusters for channel 28 (phase2)...
+
+Found 2 clusters for channel 22 (phase2)...
+
+Found 2 clusters for channel 12 (phase2)...
+
+Preparing output...
+
+Writing firings file...
+
+Done with ms4alg.
+
+Elapsed time for processor ms4alg.sort: 161.42 sec
+Finalizing output firings_out
+[ Saving to process cache ... ]
+[ Removing temporary directory ... ]
+[ Done. ]
+[ Getting processor spec... ]
+[ Checking inputs and substituting prvs ... ]
+[ Computing process signature ... ]
+Process signature: c730d1c370a1c6629f6c64a2d345af3d0936448d
+[ Checking outputs... ]
+{"metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/cluster_metrics.json"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/cluster_metrics.json
+false
+{"metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/cluster_metrics.json"}
+[ Checking process cache ... ]
+[ Creating temporary directory ... ]
+[ Creating links to input files... ]
+[ Preparing temporary outputs... ]
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/cluster_metrics.json
+false
+[ Initializing process ... ]
+[ Running ... ] /home/hanlin/miniconda3/envs/mountainlab/bin/python3 /home/hanlin/miniconda3/envs/mountainlab/etc/mountainlab/packages/ml_ephys/basic/basic.py.mp ephys.compute_cluster_metrics --_tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_c730d1c370_vW6mwd --timeseries=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_c730d1c370_vW6mwd/input_timeseries_d0wWvghu.mda --firings=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_c730d1c370_vW6mwd/input_firings_cQ0xLs45.mda --metrics_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_c730d1c370_vW6mwd/output_metrics_out.json --samplerate=30000 --clip_size=100 --refrac_msec=2
+Reading firings...
+Initializing...
+Computing templates...
+Computing Refractory Period Violations
+Writing output...
+Done.
+
+Elapsed time for processor ephys.compute_cluster_metrics: 62.205 sec
+Finalizing output metrics_out
+[ Saving to process cache ... ]
+[ Removing temporary directory ... ]
+[ Done. ]
+[ Getting processor spec... ]
+[ Checking inputs and substituting prvs ... ]
+[ Computing process signature ... ]
+Process signature: a9d4e17d5cf093ac925a79cabbe18dfd71555d49
+[ Checking outputs... ]
+{"templates_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/templates.mda"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/templates.mda
+false
+{"templates_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/templates.mda"}
+[ Checking process cache ... ]
+[ Creating temporary directory ... ]
+[ Creating links to input files... ]
+[ Preparing temporary outputs... ]
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/templates.mda
+false
+[ Initializing process ... ]
+[ Running ... ] /home/hanlin/miniconda3/envs/mountainlab/bin/python3 /home/hanlin/miniconda3/envs/mountainlab/etc/mountainlab/packages/ml_ephys/basic/basic.py.mp ephys.compute_templates --_tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_a9d4e17d5c_mv6lct --timeseries=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_a9d4e17d5c_mv6lct/input_timeseries_SqNNYC6b.mda --firings=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_a9d4e17d5c_mv6lct/input_firings_rjbVQkyT.mda --templates_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_a9d4e17d5c_mv6lct/output_templates_out.mda --clip_size=100
+Elapsed time for processor ephys.compute_templates: 64.9 sec
+Finalizing output templates_out
+[ Saving to process cache ... ]
+[ Removing temporary directory ... ]
+[ Done. ]
+[ Getting processor spec... ]
+[ Checking inputs and substituting prvs ... ]
+[ Computing process signature ... ]
+Process signature: 8ccce923ec19f82916195c61b8cb4b5856ab6278
+[ Checking outputs... ]
+{"metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/isolation_metrics_out.json","pair_metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pair_metrics_out.json"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/isolation_metrics_out.json
+false
+{"metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/isolation_metrics_out.json","pair_metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pair_metrics_out.json"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pair_metrics_out.json
+false
+{"metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/isolation_metrics_out.json","pair_metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pair_metrics_out.json"}
+[ Checking process cache ... ]
+[ Creating temporary directory ... ]
+[ Creating links to input files... ]
+[ Preparing temporary outputs... ]
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/isolation_metrics_out.json
+false
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/pair_metrics_out.json
+false
+[ Initializing process ... ]
+[ Running ... ] /home/hanlin/miniconda3/envs/mountainlab/etc/mountainlab/packages/ms3.mp ms3.isolation_metrics --_tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_8ccce923ec_2RoH4r --timeseries=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_8ccce923ec_2RoH4r/input_timeseries_357MLX77.mda --firings=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_8ccce923ec_2RoH4r/input_firings_vLWTXHdQ.mda --metrics_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_8ccce923ec_2RoH4r/output_metrics_out.json --pair_metrics_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_8ccce923ec_2RoH4r/output_pair_metrics_out.json --compute_bursting_parents=true
+Starting p_isolation_metrics
+
+Computing cluster metrics...
+
+Computing templates...
+
+Determining pairs to compare...
+
+Computing bursting parents...
+
+preparing clusters array
+
+Writing output...
+
+Elapsed time for processor ms3.isolation_metrics: 10.017 sec
+Finalizing output metrics_out
+Finalizing output pair_metrics_out
+[ Saving to process cache ... ]
+[ Removing temporary directory ... ]
+[ Done. ]
+[ Getting processor spec... ]
+[ Checking inputs and substituting prvs ... ]
+[ Computing process signature ... ]
+Process signature: c9c321b5c00a5beef3be5c9b83e6e53a7415ceba
+[ Checking outputs... ]
+{"metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/combine_metrics_new.json"}
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/combine_metrics_new.json
+false
+{"metrics_out":"/media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/combine_metrics_new.json"}
+[ Checking process cache ... ]
+[ Creating temporary directory ... ]
+[ Creating links to input files... ]
+[ Preparing temporary outputs... ]
+Processing ouput - /media/hanlin/Liuyang_10T_backup/jiaaoZ/msort_results/MustangGaitSessions/Mustang_220120_215625/combine_metrics_new.json
+false
+[ Initializing process ... ]
+[ Running ... ] /home/hanlin/miniconda3/envs/mountainlab/etc/mountainlab/packages/ms3.mp ms3.combine_cluster_metrics --_tempdir=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_c9c321b5c0_TyW4s0 --metrics_list=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_c9c321b5c0_TyW4s0/input_metrics_list-0_vfDpAxfQ.json --metrics_list=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_c9c321b5c0_TyW4s0/input_metrics_list-1_SP62WTyd.json --metrics_out=/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_c9c321b5c0_TyW4s0/output_metrics_out.json
+Elapsed time for processor ms3.combine_cluster_metrics: 0.012 sec
+Finalizing output metrics_out
+[ Saving to process cache ... ]
+[ Removing temporary directory ... ]
+[ Done. ]
+Session finished. Deleting temp files...
+rm: cannot remove '/media/hanlin/Liuyang_10T_backup/jiaaoZ/ml_temp/tempdir_4e4187a5be_sUtGjV': Directory not empty
+Session finished in  528  seconds.
