@@ -1,0 +1,2 @@
+# XieLuanLab/SpinalCord
+Code for Wu et al. [Ultraflexible Electrodes for Recording Neural Activity in the Mouse Spinal Cord During Motor Behavior](http://dx.doi.org/10.2139/ssrn.4635577). Includes custom scripts for processing ePhys and analyzing spike train & behavior data. Written in Python and MATLAB.
